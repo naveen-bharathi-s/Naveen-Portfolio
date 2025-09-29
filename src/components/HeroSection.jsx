@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaMobileAlt, FaGithub, FaLinkedin, FaEnvelope, FaRegFilePdf } from 'react-icons/fa'
+import profile from '/Naveen.jpg'
 import { motion } from "framer-motion"
 
 const cardVariants = {
@@ -19,7 +20,7 @@ const HeroSection = () => {
           transition={{ duration: 0.7, ease: "easeOut" }}
           viewport={{ amount: 0.2 }}
         >
-          <img src="/Naveen.jpg" alt="Profile" className='w-48 h-48 rounded-full ml-9 mb-4 md:ml-3 lg:ml-16' />
+          <img src={profile} alt="Profile" className='w-48 h-48 rounded-full ml-9 mb-4 md:ml-3 lg:ml-16' />
         </motion.div>
         <h2 className='font-bold text-xl text-green-900'>Hi, I am Naveen Bharathi!</h2>
         <h1 className='font-bold text-3xl lg:text-4xl text-gray-700'>Software Developer</h1>

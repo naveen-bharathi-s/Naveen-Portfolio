@@ -30,7 +30,7 @@ const experiences = [
         delay: 0.2,
     },
     {
-        title: "Associatet",
+        title: "Associate",
         company: "Cognizant",
         img : <FaHourglassHalf />,
         period: "Jun 2025 - Till Date",
@@ -52,7 +52,7 @@ const Experience = () => {
                         whileInView="visible"
                         transition={{ duration: 0.9, ease: "easeOut" }}
                         viewport={{ amount: 0.2 }}
-                        className='bg-slate-400 space-y-2 m-2 shadow-md rounded-2xl px-2 py-3'>
+                        className='bg-slate-300 text-white dark:text-black space-y-2 m-2 shadow-md rounded-2xl px-2 py-3'>
 
                         <div className='flex items-center justify-start gap-1 text-green-700'>
                             <FaRocket />

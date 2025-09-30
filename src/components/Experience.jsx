@@ -52,7 +52,7 @@ const Experience = () => {
                         whileInView="visible"
                         transition={{ duration: 0.9, ease: "easeOut" }}
                         viewport={{ amount: 0.2 }}
-                        className='bg-slate-300 text-white dark:text-black space-y-2 m-2 shadow-md rounded-2xl px-2 py-3'>
+                        className='bg-slate-300 text-black dark:text-black space-y-3 m-2 shadow-md rounded-2xl px-2 py-3'>
 
                         <div className='flex items-center justify-start gap-1 text-green-700'>
                             <FaRocket />
@@ -60,11 +60,11 @@ const Experience = () => {
                         </div>
                         <div className='flex items-center justify-start gap-1'>
                             <FaBuilding className='text-green-700' />
-                            <p>{exp.company}</p>
+                            <p className='font-semibold text-sm'>{exp.company}</p>
                         </div>
                         <div className='flex items-center justify-start gap-1'>
                             <p className='text-green-700'>{exp.img}</p>
-                            <p>{exp.period}</p>
+                            <p className='font-semibold text-sm'>{exp.period}</p>
                         </div>
                     </motion.div>
                 ))}

@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaMobileAlt, FaGithub, FaLinkedin, FaEnvelope, FaRegFilePdf } from 'react-icons/fa'
-import profile from '/Naveen.jpg'
+import profile from '/Naveen1.jpg'
 import { motion } from "framer-motion"
 
 const cardVariants = {

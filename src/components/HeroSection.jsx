@@ -65,7 +65,7 @@ const HeroSection = () => {
             LinkedIn
           </a>
           <a 
-          href='/Naveen Bharathi S.pdf'
+          href='/Naveen_Bharathi_MERN_Developer_Resume.pdf'
           target='_blank'
           rel='noopener noreferer'
           className='px-6 py-2 mt-2 bg-green-700 text-white text-center rounded-3xl flex items-center justify-start gap-3

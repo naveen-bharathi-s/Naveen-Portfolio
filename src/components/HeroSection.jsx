@@ -31,9 +31,9 @@ const HeroSection = () => {
           <FaEnvelope />
           <a 
           className='hover:text-blue-700 cursor-pointer'
-          href='mailto:naveenbharathi555@gmail.com'
+          href='mailto:naveenbharathi.dev@gmail.com'
           target='_blank'>
-            naveenbharathi555@gmail.com
+            naveenbharathi.dev@gmail.com
             </a>
         </div>
         <div className='flex items-center justify-start gap-1'>

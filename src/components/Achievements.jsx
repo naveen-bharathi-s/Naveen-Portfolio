@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaSchool, FaBuilding, FaLayerGroup, FaUserGraduate, FaEnvira, FaFeatherAlt } from 'react-icons/fa'
+import { FaSchool, FaBuilding, FaLayerGroup, FaUserGraduate, FaEnvira, FaFeatherAlt, FaBaseballBall, FaBriefcase, FaTrophy, FaCheckCircle, FaChevronRight, FaDotCircle, FaRunning } from 'react-icons/fa'
 import { motion } from "framer-motion"
 
 const cardVariants = {
@@ -9,32 +9,38 @@ const cardVariants = {
 
 const achievements = [
   {
-    img: <FaLayerGroup />,
-    title: "Office",
+    img: <FaBriefcase/>,
+    title: "Professional",
     img1 : <FaFeatherAlt />,
     img2 : <FaFeatherAlt />,
     img3 : <FaFeatherAlt />,
-    desc: (<>Program Analyst Trainee by <span className='text-base font-bold'>Cognizant</span> on 2022</>),
-    desc1: (<>Program Analyst by <span className='text-base font-bold'>Cognizant</span> on 2023</>),
-    desc2: (<>Associate by <span className='text-base font-bold'>Cognizant</span> on 2025</>),
+    img4 : <FaFeatherAlt />,
+    desc: (<>Associate — Promoted in <span className='text-base font-bold'>July 2025</span> for consistent performance and ownership</>),
+    desc1: (<>Program Analyst — Promoted in <span className='text-base font-bold'>September 2023</span></>),
+    desc2: (<>Program Analyst Trainee — Promoted in <span className='text-base font-bold'>September 2022</span></>),
+    desc3: (<>Joined Cognizant as a Full Stack Intern in <span className='text-base font-bold'>February 2022,</span> marking the start of my professional career</>),
     delay: 0,
   },
   {
-    img: <FaUserGraduate />,
-    title: "College",
+    img: <FaBaseballBall/>,
+    title: "Sports",
     img1 : <FaFeatherAlt />,
     img2 : <FaFeatherAlt />,
-    desc: (<>Completed degree with <span className='text-base font-bold'>7.3 GPA</span></>),
-    desc1: (<>Runner-up in <span className='text-base font-bold'>Zonal Level Basketball</span> Championship in 2021</>),
+    img3 : <FaFeatherAlt />,
+    desc: (<>Corporate Olympiad <span className='text-base font-bold'>2025 – Basketball Champion,</span> representing the Cognizant Basketball Team</>),
+    desc1: (<>College Basketball <span className='text-base font-bold'>Team Captain</span> and Zonal-Level <span className='text-base font-bold'>Runner-Up 2021</span></>),
+    desc2: (<>State-Level Basketball <span className='text-base font-bold'>Runner-Up 2015</span></>),
     delay: 0.1,
   },
   {
-    img: <FaSchool />,
-    title: "School",
+    img: <FaUserGraduate />,
+    title: "Academics",
     img1 : <FaFeatherAlt />,
     img2 : <FaFeatherAlt />,
-    desc: "Completed HSC with 70%",
-    desc1: "Completed SSLC with 89%",
+    img3 : <FaFeatherAlt />,
+    desc: (<>Bachelor of Technology in Information Technology National Engineering College - <span className='text-base font-bold'>GPA: 7.3</span></>),
+    desc1: (<>Higher Secondary Education Sri Jayendra Gold Jubilee School - <span className='text-base font-bold'>72%</span></>),
+    desc2: (<>Secondary School Education Sri Jayendra Gold Jubilee School - <span className='text-base font-bold'>89%</span></>),
     delay: 0.2,
   },
 ]

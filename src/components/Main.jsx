@@ -9,19 +9,22 @@ const Main = () => {
                     {`Welcome to my portfolio! I’m excited to share my journey and expertise with you.`}
                 </p>
                 <p>
-                    {`I am a passionate MERN Stack Developer with a Bachelor’s degree in Information Technology from National Engineering College, graduating with a GPA of 7.3. During my second year, I proudly served as the basketball team captain, an experience that strengthened my leadership and teamwork skills.`}
+                    {`Hi, I’m Naveen Bharathi S, a MERN Stack Developer with 3+ years of professional experience at Cognizant Technology Solutions, where I’ve worked on building, supporting, and scaling large-scale web applications.`}
                 </p>
                 <p>
-                    {`In my professional journey, I have honed my skills in React web development, with a strong focus on frontend technologies such as Redux, HTML, CSS, and Tailwind CSS. I am proficient in JavaScript and experienced with Node.js and MongoDB, enabling me to deliver seamless full-stack solutions.`}
+                    {`I specialize in developing responsive, user-centric web interfaces using React.js, JavaScript (ES6+), HTML5, CSS3, and Tailwind CSS, and I have hands-on experience building full-stack solutions with Node.js, Express.js, and MongoDB. My work includes REST API development, authentication, CRUD operations, payment gateway integration, and deploying applications using modern tools.`}
                 </p>
                 <p>
-                    {`My career began as an intern at Cognizant in 2022, where I quickly progressed to the role of Program Analyst Trainee, gaining valuable industry exposure and sharpening my problem-solving abilities.`}
+                    {`At Cognizant, I currently work as a Frontend Engineer on a large E-Commerce platform supporting 1000+ food delivery websites for Darden Restaurants. I actively handle production issues, UI enhancements, menu and payment configurations, and high-traffic peak-day support. One of my contributions helped drive a 25%+ revenue increase by implementing and configuring a new menu category during peak business periods.`}
                 </p>
                 <p>
-                    {`I am driven by a commitment to continuous learning and innovation. My short-term goal is to further deepen my expertise as a Full Stack Developer, while my long-term aspiration is to create groundbreaking applications that push the boundaries of technology.`}
+                    {`My professional journey began as a Full Stack Java Intern, where I gained a solid foundation in Core Java, SQL, JavaScript, Agile methodologies, and enterprise application workflows, which continues to strengthen my problem-solving approach today.`}
                 </p>
                 <p>
-                    {`Thank you for taking the time to explore my portfolio. I look forward to the opportunity to collaborate with you on creating elegant applications.`}
+                    {`I hold a Bachelor’s degree in Information Technology from National Engineering College (GPA: 7.3). Beyond academics, serving as a college basketball team captain helped me build strong leadership, communication, and teamwork skills.`}
+                </p>
+                <p>
+                    {`I’m passionate about continuous learning and building impactful products. My short-term goal is to grow further as a Full Stack MERN Developer, while my long-term vision is to create scalable, high-performance applications that deliver real business value.`}
                 </p>
             </div>
         </div>

@@ -22,8 +22,8 @@ const HeroSection = () => {
         >
           <img src={profile} alt="Profile" className='w-48 h-48 rounded-full ml-9 mb-4 md:ml-3 lg:ml-16' />
         </motion.div>
-        <h2 className='font-bold text-xl text-green-900'>Hi, I am Naveen Bharathi!</h2>
-        <h1 className='font-bold text-3xl lg:text-4xl text-gray-700'>Software Developer</h1>
+        <h2 className='font-bold text-xl text-emerald-900  dark:text-emerald-100'>Hi, I'm Naveen Bharathi!</h2>
+        <h1 className='font-bold text-3xl lg:text-4xl text-gray-800 dark:text-gray-200'>Full Stack Developer</h1>
       </div>
       <div className='px-4 py-6 m-4 border-2 rounded-2xl mx-auto'>
         <h3 className='font-bold text-xl pb-4 border-b-2'>Contact Info</h3>

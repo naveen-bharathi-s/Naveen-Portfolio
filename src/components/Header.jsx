@@ -21,24 +21,24 @@ const Header = () => {
 
   // Highlight active link
   useEffect(() => {
-        const sections = headerLinks.map((link) => document.querySelector(link.href)).filter(Boolean)
+    const sections = headerLinks.map((link) => document.querySelector(link.href)).filter(Boolean)
 
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach((entry) => {
-                if (entry.isIntersecting) {
-                    const link = headerLinks.find(h => h.href === `#${entry.target.id}`)
-                    if(link) setActive(link.name)
-                }
-            })
-        }, {
-            root: null,
-            rootMargin: "-70px 0px -50% 0px",
-            threshold: 0.4,
-        })
-        sections.forEach((sec) => sec && observer.observe(sec))
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          const link = headerLinks.find(h => h.href === `#${entry.target.id}`)
+          if (link) setActive(link.name)
+        }
+      })
+    }, {
+      root: null,
+      rootMargin: "-70px 0px -50% 0px",
+      threshold: 0.4,
+    })
+    sections.forEach((sec) => sec && observer.observe(sec))
 
-        return () => observer.disconnect()
-    }, [])
+    return () => observer.disconnect()
+  }, [])
 
   const handleLinkClick = (name) => {
     setActive(name)
